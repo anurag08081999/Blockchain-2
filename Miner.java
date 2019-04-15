@@ -8,7 +8,7 @@ public class Miner {
    // Receive a transaction. 
    public void hearTransaction(Simulation.Transaction tx) {}
    
-   // Hear about a new block found by someone else;
+   // Hear about a new block found by someone else
    public void hearBlock(Block block) {}
 
    public ArrayList<Block> publishBlock() {
