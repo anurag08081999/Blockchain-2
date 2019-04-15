@@ -1,5 +1,5 @@
 /*
- * This class represents an unspent transaction output (UTXO)
+ * This class represents an unspent transaction output(UTXO)
  */
 
 import java.util.Arrays;
