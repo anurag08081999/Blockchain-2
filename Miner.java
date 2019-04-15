@@ -5,7 +5,7 @@ public class Miner {
    
    public Miner(Block genesisBlock) {}
    
-   // Receive a transaction. 
+   // Receive a transaction
    public void hearTransaction(Simulation.Transaction tx) {}
    
    // Hear about a new block found by someone else;
