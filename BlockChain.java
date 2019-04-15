@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class BlockChain {
    public static final int CUT_OFF_AGE = 10;
 
-   // all information required in handling a block in block chain
+   // all information required in handling a block in blockchain
    private class BlockNode {
       public Block b;
       public BlockNode parent;
