@@ -44,7 +44,7 @@ public class PickNewestMiner extends Miner {
    public void hearBlock(Block block) {
       // remove all transactions in the block from tx pool
       // this might not be an optimal strategy to handle tx fees but 
-      // this selfish miner does not care about tx fees
+      // this selfish miner does not care about tx fees.
       for (Simulation.Transaction tx : block.transactions)
          txPool.remove(tx);
 
